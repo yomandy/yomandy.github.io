@@ -7,42 +7,76 @@
     <link rel="stylesheet" href="styles.css">
     <title>Mandy Young</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <a href="index.html">01. About</a>
-            <a href="">02.Experience</a>
-            <a href="">03.Projects</a>
-            <a href="contact.html">04. Contact</a>
-        </nav>
+        <nav class="nav-wrapper">
+            <a href="#About"><span>01.</span>About</a>
+            <a href="#experience"><span>02.</span>Experience</a>
+            <a href="#projects"><span>03.</span>Projects</a>
+            <a href="contact.html"><span>04.</span>Contact</a>
+            <div class="btn-group">
+                <a href="https://drive.google.com/file/d/1u4zvPs4YTaPSqeu0ACXOAkiUqdNfbG53/view?usp=sharing" class="button">Resume</button>
+            </div>
+        </nav> 
     </header>
-    <div>
-            <p>Hi, my name is</p>
-            <h1>Mandy Young</h1>
-            <h2>I am an aspiring software engineer and avid spicy foods consumer. Currently I'm a Product Marketing Manager aspring to simplify home buying for Australia consumers at <a href="https://www.home-in.com.au/">Home-in</a></h2>
-            <p>Watch this space</p>
-        <img src="images/profilepic.jpg" alt="Pixel art photo of Mandy Young">
-        <h3> 01. About</h3>
-        <p>My name is Mandy. I'm a Middle Eastern/Australian Product Marketing Manager trying to make my mark in the startup world. Before my foray into all things Fintech, I did video game marketing at <a href="https://www.ea.com/en-au">Electronic Arts</a> for five year. </p>
-        <p>Outside of work my hobbies come and go but at the moment I'm busy hyper-fixating on climbing, trying to grow a vegg0ie garden, and reading. Previously I have been known to skateboard, sail, and create digital art for fun.</p>
-        
-        <h3> 02.Experience </h3>
-        <h4>Product Marketing <a href="https://www.home-in.com.au/">@ Home-in</a></h4>
-        <p>Jul 2022-present</p>
-        <h4>Global Brand Manager <a href="https://www.ea.com/en-au">@ EA Canada</a></h4>
-        <p>Sept 2021-Jul 2022</p>
-        <h4>IMEA Regional Marketing Manager <a href="https://www.ea.com/en-au">@ EA APAC</a></h4>
-        <p>Apr 2019-Sep 2021</p>
-        <h4>IMEA Regional Community Engagement Manager<a href="https://www.ea.com/en-au">@ EA APAC</a></h4>
-        <p>Sep2017-Apr2019</p>
 
-        <h3>Projects</h3>
-        <p>Coming Soon...check back later</p>
+    <div class="main-wrapper">
+        <div class="logo-nav">
+            <a class="logo" href="https://twitter.com/y0mandi"><img alt="twitter" src="images/twitter.png"></a>
+            <a class="logo" href="https://github.com/yomandy"><img alt="twitter"src="images/git.png"></a>
+            <a class="logo" href="https://www.instagram.com/mandy0ung/"><img src="images/instagram.png"></a>
+            <a class="logo" href="https://www.linkedin.com/in/amanda-amal-young/"><img src="images/linkedin.png"></a>
+        </div>
+        <div class="secondary-wrapper">
+            <div class="intro-wrapper">
+                <p id ="hi">Hi, my name is</p>
+                <h1>Mandy Young.</h1>
+                <h2>I am an avid spicy foods consumer and aspiring software engineer. </h2>
+                <div class="intro-secondwrapper">
+                <p>By trade I'm a Product Marketing Manager with a background in <span>video games</span> and <span>fin-tech.</span> This is my online portfolio, I will be updating it as I go so please make sure you come back and check out what I have been up to.</p>
+                </div>
+            </div>
 
-   
-   
+            <div class="about-wrapper">
+            <h3 id="About"><span>01.</span> About Me </h3>
+            <div class="wrapper">
+                <div id="second">
+                <p>My name is Mandy. I'm a Middle Eastern/Australian Product Marketing Manager trying to make my mark in the startup world.  Before my foray into all things Fintech, I worked in video game marketing at <a href="https://www.ea.com/en-au">Electronic Arts</a> for five years. Even though I studied Social Inquiry at university, I landed in marketing by pure chance. I'm incredibly lucky to have the opportunities that I have had and my work has taken me all over the world.</p>
+                <p>Outside of work my hobbies come and go but at the moment I'm busy hyper-fixating on climbing, trying to grow a vegg0ie garden, and reading. Previously I have been known to skateboard, sail, and create digital art for fun.</p>
+                </div>
+                <div id="first">
+                    <img src="images/profilepic.jpg" alt="Pixel art photo of Mandy Young">
+                </div>
+            </div>
+            </div>
+
+            <div>
+            <div class="experience-wrapper">
+                <!-- id=experience is to make the nav bar auto scroll down -->
+                <h3 id="experience"><span>02.</span> Where I've Worked </h3> 
+                <h4>Product Marketing <a href="https://www.home-in.com.au/">@ Home-in</a></h4>
+                <p>Jul 2022-present</p>
+                <h4>Global Brand Manager <a href="https://www.ea.com/en-au">@ EA Canada</a></h4>
+                <p>Sept 2021-Jul 2022</p>
+                <h4>IMEA Regional Marketing Manager <a href="https://www.ea.com/en-au">@ EA APAC</a></h4>
+                <p>Apr 2019-Sep 2021</p>
+                <h4>IMEA Regional Community Engagement Manager<a href="https://www.ea.com/en-au">@ EA APAC</a></h4>
+                <p>Sep 2017-Apr 2019</p>
+                </div>
+            </div>
+                
+            <div class="projects-wrapper">
+                <h3 id="projects"><span>03.</span> Projects </h3>
+                <p>These aren't the projects you are looking for, your jedi mind tricks won't work here. Coming Soon...check back later</p>
+            </div>   
+        </div> 
+
+</div>
+<div>      
+    <footer>
+        Built by Mandy Young. Inspired by <a href="https://brittanychiang.com/">Brittany Chiang</a>
+    </footer>
     </div>
-
-    
 </body>
 </html>
